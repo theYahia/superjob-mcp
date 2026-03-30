@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "superjob": {
+      "command": "npx",
+      "args": ["-y", "@theyahia/superjob-mcp"],
+      "env": { "SUPERJOB_API_KEY": "<YOUR_API_KEY>" }
+    }
+  }
+}
