@@ -1,12 +1,18 @@
 {
   "name": "@theyahia/superjob-mcp",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "MCP server for SuperJob.ru API — vacancy search, employers, towns, professions. 5 tools.",
   "type": "module",
   "main": "dist/index.js",
-  "bin": { "superjob-mcp": "dist/index.js" },
-  "files": ["dist"],
-  "engines": { "node": ">=18.0.0" },
+  "bin": {
+    "superjob-mcp": "dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "scripts": {
     "build": "tsc",
     "dev": "tsx src/index.ts",
@@ -25,10 +31,26 @@
     "typescript": "^5.7.0",
     "vitest": "^3.1.1"
   },
-  "publishConfig": { "access": "public" },
+  "publishConfig": {
+    "access": "public"
+  },
   "mcpName": "io.github.theYahia/superjob-mcp",
-  "keywords": ["mcp", "mcp-server", "model-context-protocol", "claude", "ai", "russian-api", "superjob", "jobs", "vacancies", "employers"],
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "model-context-protocol",
+    "claude",
+    "ai",
+    "russian-api",
+    "superjob",
+    "jobs",
+    "vacancies",
+    "employers"
+  ],
   "license": "MIT",
-  "repository": { "type": "git", "url": "https://github.com/theYahia/superjob-mcp.git" },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theYahia/superjob-mcp.git"
+  },
   "author": "theYahia (https://github.com/theYahia)"
 }
