@@ -1,22 +1,23 @@
 ---
-name: job-search
-description: Поиск вакансий на SuperJob по специальности, городу и зарплате
+name: find-job
+description: Найди вакансии на SuperJob по специальности, городу и зарплате
 argument-hint: <специальность> [город] [зарплата от]
 allowed-tools:
   - Bash
   - Read
 ---
 
-# /job-search — Поиск вакансий на SuperJob
+# /find-job — Найди вакансии на SuperJob
 
 ## Алгоритм
 
-1. Вызови `search_vacancies` с keyword, town, payment_from
-2. Покажи список с зарплатами и ссылками
+1. Определи город (если указан) через get_towns с keyword
+2. Вызови search_vacancies с keyword, town ID, payment_from
+3. Для каждой вакансии покажи: название, компания, зарплата, город, ссылка
+4. Если вакансий > 20, предложи уточнить фильтры
 
 ## Примеры
 
-```
-/job-search Python Москва 200000
-/job-search менеджер
-```
+/find-job Python Москва 200000
+/find-job менеджер
+/find-job React разработчик Санкт-Петербург
