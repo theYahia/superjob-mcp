@@ -1,6 +1,6 @@
-# @theyahia/superjob-mcp
+# SuperJob MCP — поиск вакансий и работодателей через нейросеть
 
-MCP-сервер для SuperJob.ru API — поиск вакансий, работодателей, справочники городов и профессий. **5 инструментов.**
+Если вы искали, как попросить ИИ подобрать вакансии на SuperJob под свои критерии, собрать выборку работодателей или следить за зарплатами в профессии без ручного листания сайта — это оно. **5 инструментов** поверх SuperJob.ru API: поиск вакансий, работодатели, справочники городов и профессий.
 
 [![npm](https://img.shields.io/npm/v/@theyahia/superjob-mcp)](https://www.npmjs.com/package/@theyahia/superjob-mcp)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -84,3 +84,4 @@ npm test
 
 ## Лицензия
 MIT
+
